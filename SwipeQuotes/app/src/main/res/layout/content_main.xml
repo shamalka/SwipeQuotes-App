@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_refresh_black_24dp"/>
+
+    <TextView
+        android:id="@+id/touch_to_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Touch on the quote to share"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/refresh_button"
+        android:layout_marginTop="10dp"/>
+
+    <com.huxq17.swipecardsview.SwipeCardsView
+        android:id="@+id/swipe_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alphaOffsetStep = "20"
+        app:scaleOffsetStep = "0.08"
+        app:yOffsetStep = "20dp"
+        tools:ignore="MissingConstraints"></com.huxq17.swipecardsview.SwipeCardsView>
+
+</RelativeLayout>

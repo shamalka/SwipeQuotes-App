@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1057761251878",
+    "firebase_url": "https://swipe-quotes.firebaseio.com",
+    "project_id": "swipe-quotes",
+    "storage_bucket": "swipe-quotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057761251878:android:c90930098110a9b8",
+        "android_client_info": {
+          "package_name": "com.snov.swipequotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057761251878-8t8gfnli4ubpslfk2up4gehr01q99rf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsAV4KaFbAXPQs2Vg9Ya49rVdz8H6ca4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057761251878-8t8gfnli4ubpslfk2up4gehr01q99rf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
